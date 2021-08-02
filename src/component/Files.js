@@ -68,7 +68,7 @@ const Files = (props) => {
                 else {
                     console.log('duration in seconds: ' + fileStatus[key].sound.getDuration() + 'number of channels: ' + fileStatus[key].sound.getNumberOfChannels());
                     for (let file in fileStatus) {
-                        // console.log(file, key, "mlkm");
+                        console.log(file, key, "mlkm");
                         if (file === key) {
                             let filest = { ...fileStatus };
 
